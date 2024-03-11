@@ -1,0 +1,62 @@
+        body {
+            background-color: #FFEBEC;
+            font-family: 'Lexend Exa', sans-serif;
+        }
+
+        header {
+            background-color: #FFFFFF;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        container {
+            background-color: #FFFFFF;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            overflow: hidden; /* Clear float */
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        th, td {
+            padding: 6px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #F3A5AA;
+            color: black;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        table-container {
+            float: left;
+            width: 60%;
+        }
+
+        .image-container {
+            float: right;
+            width: 40%;
+        }
+
+        #Apple {
+            font-size: 24px; color: #F3A5AA;
+        }
+
+        #Test {
+            background-color: #F3A5AA;
+            width: 15%;
+        }
