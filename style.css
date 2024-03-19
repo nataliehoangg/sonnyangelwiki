@@ -2,6 +2,10 @@
             background-color: #FFEBEC;
             font-family: 'Lexend Exa', sans-serif;
         }
+        
+        p {
+            font-size: 24px;
+        }
 
         header {
             background-color: #FFFFFF;
