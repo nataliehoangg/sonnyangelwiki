@@ -1,4 +1,14 @@
-body {
-    background-color: #FFEBEC;
-    font-family: 'Lexend Exa', sans-serif;
-}
+        body {
+            background-color: #FFEBEC;
+            font-family: 'Lexend Exa', sans-serif;
+        }
+
+        p {
+            margin-left: 20px;
+        }
+
+        #Home {
+            font-size: 48px; 
+            margin-left: 20px; 
+            margin-top: 5px;
+        }
