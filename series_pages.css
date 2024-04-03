@@ -136,3 +136,25 @@ hr {
     background-color: #fff; /* Change to white on hover */
     color: #242424; /* Change text color on hover */
 }
+
+/* Add your CSS styles here */
+/* Same styles as previous, adjust as needed */
+.nav-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nav-section a {
+    text-decoration: none;
+    color: #242424;
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #f3a5aa9e;
+    border-radius: 9px;
+}
+
+.nav-section a:hover {
+    background-color: white;
+}

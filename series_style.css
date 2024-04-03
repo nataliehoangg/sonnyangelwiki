@@ -67,6 +67,7 @@ body {
 /* footer */
 .footer {
     background-color: #f3a5aa56;
+    position: fixed;
     color: #242424;
     text-align: center;
     padding: 10px;
