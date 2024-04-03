@@ -2,6 +2,9 @@
 body {
     background-color: #FFEBEC;
     font-family: 'Lexend Exa', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
 }
@@ -78,6 +81,7 @@ body {
 
 .main-content {
     display: flex;
+    flex: 1;
     flex-direction: column;
     background-color: white;
     margin: 120px auto; 
@@ -100,44 +104,35 @@ hr {
 }
 
 .button-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.veggie-button {
     display: flex;
-    width: auto;
-    height: auto;
-    justify-content: center;
-    margin-top: 20px;
-    justify-content: space-between
-}
-
-.view-button {
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
     color: #242424;
-    background-color: #f3a5aa50;
-    background-size: cover;
-    border: none;
-    border-radius: 5px;
-    padding: 120px 240px; /* Adjust padding to make the buttons bigger */
-    margin: 0 10px;
-    cursor: pointer;
+    background-color: #f3a5aa56;
+    border-radius: 9px;
+    padding: 10px;
     transition: background-color 0.3s;
-    font-size: 20px; /* Increase font size */
-    font-family: 'Lexend Exa', sans-serif;
 }
 
-#series-button {
-    background-image: url('./images/left.png');
-    background-size: 100%; 
-    background-repeat: no-repeat; 
-    background-position: center; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.veggie-button img {
+    width: 100%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+    border-radius: 9px;
+    margin-bottom: 5px;
 }
 
-#alphabetical-button {
-    background-image: url('./images/right.png');
-    background-size: 100%; 
-    background-repeat: no-repeat; 
-    background-position: center; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.veggie-button span {
+    font-size: 16px;
 }
 
-.view-button:hover {
-    background-color: rgba(0, 0, 0, 0.3); /* Add a semi-transparent overlay on hover */
+.veggie-button:hover {
+    background-color: #fff; /* Change to white on hover */
+    color: #242424; /* Change text color on hover */
 }
